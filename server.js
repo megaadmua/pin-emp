@@ -8,9 +8,9 @@ app.use(express.json());
 
 // Данные с PIN-кодами
 const pins = {
-    "0182": "page1.html",
-    "5932": "page2.html",
-    "6832": "page3.html"
+    "0182": "emp1/index.html",
+    "5932": "emp2/index.html",
+    "6832": "emp3/index.html"
 };
 
 // Обработка запросов проверки PIN
